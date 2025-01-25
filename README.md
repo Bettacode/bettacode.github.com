@@ -1,6 +1,6 @@
 # bettacode.github.io
 
-# AlphaCodng
+# bettacode
 
 ## Sobre
 
