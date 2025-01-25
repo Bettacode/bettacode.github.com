@@ -8,8 +8,8 @@ Meu Projeto é um exemplo de página web que visa demonstrar como criar um repos
 
 ## Páginas
 
-* [Página Inicial](https://https://bettacode.github.io/index.html)
-* [Página de Blog](https://https://bettacode.github.io/blog.html)
+* [Página Inicial](https://bettacode.github.io/index.html)
+* [Página de Blog](https://bettacode.github.io/blog.html)
 
 ## Tecnologias Utilizadas
 
