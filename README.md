@@ -1,6 +1,6 @@
 # bettacode.github.io
 
-# Meu Projeto
+# BettaCode
 
 ## Sobre
 
