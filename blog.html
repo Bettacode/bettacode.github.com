@@ -1,76 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <title>AlphaCodng/Blog</title>
-    <style>
-      *  {
-    margin:0;
-    padding:0;
-}
-
-html, body {height:100%;}
-
-.geral {
-    min-height:100%;
-    position:relative;
-    width:800px;
-}
-
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-}
-
-.content {overflow:hidden;}
-.aside {width:200px;}
-.fleft {float:left;}
-.fright {float:right;}
-      
-    </style>
-    
-    
-  </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="index.html">#BettaCode</a>
-        <a class="navbar-brand" href="blog.html">Blog</a>
-
-      </nav>
-    
-      
-  <main role="main" class="container">
-    <center>
-    
-      <div class="article">
-        <marquee> Coming Soon Blog </marquee>
-
-
-
-
-
-
-
-
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlphaCodng/Blog</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">AlphaCodng</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://alphacodng.github.io/">Início <span class="sr-only">(atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://alphacodng.github.io/blog.html">Blog</a>
+          </li>
+        </ul>
       </div>
-    </center>
-  </main>  
-          
-  <div class="footer">
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <span class="text-muted">
-                Copyright Bettacode 2020 -<a href="https://github.com/Bettacode/bettacode.github.io/"> Código Fonte </a>
-            </span>
+    </nav>
+  </header>
+  <main>
+    <section class="jumbotron text-center">
+      <h1 class="display-4">Bem-vindo ao meu projeto!</h1>
+      <p class="lead">Este é um exemplo de página utilizando Bootstrap.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a></p>
+    </section>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Seção 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
         </div>
-    </footer>
-   </div>  
-  </body>
+        <div class="col-md-4">
+          <h2>Seção 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Seção 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-white text-center">
+    <p>&copy; 2023 Meu Projeto</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
