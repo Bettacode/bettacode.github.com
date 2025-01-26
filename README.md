@@ -1,4 +1,4 @@
-# Alphacodng.github.io
+# alphacodng.github.io
 
 # Alphacodng
 
